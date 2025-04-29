@@ -1,4 +1,4 @@
-For some reason if we comment first puts()
+For some reason if we comment first puts(),
 printf() will be printed to stdout.  
 To fix this we need to set stdout line buffered
 or no buffered with setvbuf() before 
